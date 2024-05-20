@@ -1,8 +1,8 @@
-apiVersion: codepusher.io/v1alpha2
+apiVersion: codepusher.io/v1alpha3
 kind: template
 metadata:
   name: codepusher-aws-terraform-environment
-  description: The Codepusher AWS terraform environment template
+  description: The Codepusher AWS terraform environment template teste
   tags:
     - aws
     - terraform
