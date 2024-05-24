@@ -1,8 +1,8 @@
-apiVersion: codepusher.io/v1alpha3
+apiVersion: codepusher.io/v1alpha5
 kind: template
 metadata:
   name: codepusher-aws-terraform-environment
-  description: The Codepusher AWS terraform environment template teste
+  description: The Codepusher AWS terraform environment template teste 252
   tags:
     - aws
     - terraform
@@ -21,6 +21,7 @@ spec:
         - awsRegion
         - vpcCidr
         - owner
+        - teste
       properties:
         awsAccount:
           title: AWS Account
@@ -43,3 +44,6 @@ spec:
           type: list
           items:
             type: teams
+        teste:
+          title: Teste
+          type: string
